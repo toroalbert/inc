@@ -1,0 +1,128 @@
+.fondo-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondo-contain {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.opacity-off {
+    opacity: 0 !important;
+}
+
+.col-xs-0 {
+    width: 0% !important;
+    padding: 0px !important;
+    overflow: hidden;
+}
+
+.fondo-fixed {
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondo-oscuro {
+    position: relative;
+}
+
+.fondo-oscuro:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.precio-diagonal {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius: 0;
+    position: absolute;
+    right: -27px;
+    top: 11px;
+    display: inline-block;
+    width: 110px;
+    padding: 7px 12px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.sin-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.sin-padding-left {
+    padding-left: 0px !important;
+}
+
+.sin-padding-right {
+    padding-right: 0px !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.text-white * {
+    color: white !important;
+}
+
+.text-white ::-webkit-input-placeholder,
+.text-white :-moz-placeholder,
+.text-white ::-moz-placeholder,
+.text-white :-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.fondo-white {
+    background-color: white !important;
+}
+
+.fondo-white-before:before {
+    background-color: white !important;
+}
+
+.container {
+    z-index: 9;
+    position: relative;
+}
+
+@media (min-width:768px) {
+    .col-sm-0 {
+        width: 0% !important;
+        padding: 0px !important;
+        overflow: hidden;
+        float: left
+    }
+}
+
+@media (min-width:992px) {
+    .col-md-0 {
+        width: 0% !important;
+        padding: 0px !important;
+        overflow: hidden;
+        float: left
+    }
+}
+
+@media (min-width:1200px) {
+    .col-lg-0 {
+        width: 0% !important;
+        padding: 0px !important;
+        overflow: hidden;
+        float: left
+    }
+}

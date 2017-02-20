@@ -1,0 +1,46 @@
+.ajs-message,.alert {
+	border-radius: 3px;
+	color: #fff !important;
+}
+.ajs-message,.alert h4 {
+	font-weight: 600;
+}
+.ajs-message,.alert .icon {   
+	margin-right: 10px;    
+}
+.ajs-message,.alert .close {
+	color: #000;
+	opacity: 0.2;
+}
+.ajs-message,.alert .close:hover {
+	opacity:0.5;
+}
+.ajs-message,.alert  a {
+	color: #fff;
+}
+.ajs-success,
+.alert-success {
+	border-color: darken(#00a65a, 5%) !important;
+	background-color: #00a65a !important;
+}
+.ajs-error,
+.alert-danger,
+.alert-error {
+	border-color: darken(#dd4b39, 5%) !important;
+	background-color: #dd4b39 !important;
+}
+.ajs-warning,
+.alert-warning {
+	border-color: darken(#f39c12, 5%) !important;
+	background-color: #f39c12 !important;
+}
+.ajs-notify,
+.alert-info {
+	border-color: darken(#3499cd, 5%) !important;
+	background-color: #3499cd !important;
+}
+.ajs-info,
+.bg-gray {
+	border-color: darken(#111, 5%) !important;
+	background-color: #111 !important;
+}
