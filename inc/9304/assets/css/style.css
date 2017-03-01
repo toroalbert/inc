@@ -251,7 +251,7 @@ h2.small-heading:before {
     display: block;
     width: 23%;
     left: 38%;
-    background-image: url(http://localhost/landing2.0/inc/9304/assets/img/v.png);
+    background-image: url(../img/v.png);
     background-position: center;
     background-repeat: no-repeat;
 }
