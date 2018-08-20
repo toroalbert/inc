@@ -1,0 +1,66 @@
+#style-switcher h2 a { background: #8bc34a none repeat scroll 0 0; }
+
+
+
+#topcontrol,
+.btn-custom,
+#home_slider .carousel-indicators .active,
+.shadow_btn,
+.shadow_btn:hover,
+.img-thumbnail,
+#portfolio .button-group .button:active, 
+#portfolio .button-group .button.is-checked,
+.isotope-overlay,
+.isotope_btn:hover,
+.isotope_btn,
+.testimonial-carousel-control i:hover,
+.overlay,
+.counters-item i:hover,
+.post_info,
+.plan-name,
+.plan-signup:hover,
+.textarea button,
+.textarea button:hover{
+	background: #8bc34a none repeat scroll 0 0;
+	border-color: #8bc34a;
+	
+}
+.btn-custom:hover,
+.textarea button,
+.form-control:focus{
+	border-color: #8bc34a;
+}
+#topcontrol:hover{
+	background: #222;
+}
+.get_started:hover,
+.aboutsec-text h5,
+.team-box:hover h4,
+.about-icon-overlay i:hover,
+.testimonial-top h3 span,
+.testimonial_quoteleft > i, .testimonial_quoteright > i,
+.team-member:hover h4,
+.plan-price .price-value,
+.address p i,
+#footer-social a:hover,
+.plan-price .price-value span,
+.plan-price .interval,
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li.current > a
+ {
+	color: #8bc34a;
+}
+/*END SCROLL TO TOP*/
+
+
+/*START MENU*/
+
+/*END MENU*/
+
+
+
+/*START MENU*/
+
+/*END MENU*/
+
